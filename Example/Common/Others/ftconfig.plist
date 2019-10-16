@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bugly_app_id</key>
+	<string>997cea208f</string>
+	<key>td_app_id</key>
+	<string>3CE0CAE98DAA48E39558DD6B568452E7</string>
+	<key>common_problem</key>
+	<string>inline/qa/index.html</string>
+	<key>registration_agreement</key>
+	<string>register.html</string>
+	<key>risk_disclosure</key>
+	<string>risk.html</string>
+	<key>novice_School</key>
+	<string>inline/fish/index.html</string>
+	<key>news_detail</key>
+	<string>news-details.html</string>
+	<key>RE</key>
+	<dict>
+		<key>domainName</key>
+		<string>bitmixs.com</string>
+		<key>about_us</key>
+		<string>about-us.html</string>
+		<key>deskey</key>
+		<string>de62856ddd744dd5de62856d</string>
+		<key>channel</key>
+		<string>ee</string>
+		<key>proxyid</key>
+		<string>3245</string>
+		<key>packtype</key>
+		<string>1612</string>
+		<key>displayname</key>
+		<string>Bitmixs</string>
+		<key>iconnameprefix</key>
+		<string>Bitmixs</string>
+		<key>lang</key>
+		<string>cn</string>
+	</dict>
+</dict>
+</plist>

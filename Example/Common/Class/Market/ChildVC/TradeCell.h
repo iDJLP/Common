@@ -1,0 +1,21 @@
+//
+//  TradeCell.h
+//  Bitmixs
+//
+//  Created by ngw15 on 2019/3/26.
+//  Copyright © 2019 taojinzhe. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "BaseCell.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface TradeCell : BaseCell
+
++ (CGFloat)heightOfCell;
+- (void)configOfCell:(NSDictionary *)dict;
+
+@end
+
+NS_ASSUME_NONNULL_END

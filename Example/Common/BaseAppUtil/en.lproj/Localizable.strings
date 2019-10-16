@@ -1,0 +1,515 @@
+/* 
+  Localizable.strings
+  globalwin
+
+  Created by  on 2018/7/31.
+  Copyright © 2018年 taojinzhe. All rights reserved.
+*/
+
+
+"首页" = "Home";
+"行情" = "Market";
+"交易" = "Trade";
+"交易_charts" = "Trades";
+"资产" = "Assets";
+"我的" = "Mine";
+"帮助指引" = "Help&Guide";
+
+//MARK: - 行情页
+"分时" = "Line";
+"1分钟" = "1min";
+"3分钟" = "3min";
+"5分钟" = "5min";
+"15分钟" = "15min";
+"30分钟" = "30min";
+"1小时" = "60min";
+"4小时" = "240min";
+"日K" = "1D";
+"更多" = "More";
+"指标" = "Index";
+"提醒" = "Alert";
+"主图" = "Main";
+"副图" = "Sub";
+"时间" = "Date";
+"方向" = "Type";
+"价格" = "Price";
+"数量(手)" = "Quantity";
+"买入" = "Buy";
+"卖出" = "Sell";
+"买盘" = "Buy";
+"卖盘" = "Sell";
+"最新价" = "Last Price";
+"涨跌额" = "Change";
+"涨跌幅" = "Change%";
+"开盘价" = "Open";
+"交易品种"= "Symbol";
+"最高价" = "High";
+"最高" = "High";
+"最低价" = "Low";
+"最低" = "Low";
+"今开" = "Open";
+"收盘价" = "Close";
+"昨收" = "Close";
+"委托" = "Order";
+"成交_charts" = "Market Trades";
+"规则" = "Rugulation";
+"持仓" = "Position";
+"量" = " Vol";
+"成交量"="Vol";
+"成交额"="Amount";
+"万手" = "";
+"亿手" = "";
+
+
+//MARK: - 交易页
+"市场最优价成交"="Trade at current best price";
+"杠杆" = "Lever";
+"止盈" = "Stop profit";
+"止损" = "Stop loss";
+"价格" = "Price";
+"数量" = "Quantity";
+"可用余额" = "Available balance";
+"委托价值" = "Order value";
+"预估保证金" = "Estimated margin";
+"提交买入" = "Buy";
+"提交卖出" = "Sell";
+
+"收起"="Fold";
+"展开"="Unfold";
+"分时图" = "Kline";
+"市价单说明" = "Market order description";
+"限价单说明" = "Limit order description";
+"市价单" = "Market";
+"限价单" = "Limit";
+
+"确定撤单" = "Do you want to cancel this order?";
+"确定平仓" = "Do you want to close this position?";
+"是否全部以市价平仓" = "Close all the positions at market price?";
+"确定市价%@%@手%@吗？" = "%@ %@ lot %@ at the market price?";
+"确定限价%@%@手%@吗？" = "%@ %@ lot %@ at the limit price?";
+
+"选择止盈比例" = "Choose stop-profit ratio";
+"止盈点数" = "Stop-profit point";
+"买入止盈价位" = "Stop-profit price";
+"卖出止盈价位" = "Stop-profit price";
+"止盈金额" = "Stop-profit amount";
+
+"选择止损比例" = "Choose stop-loss ratio";
+"止损点数" = "Stop-loss point";
+"买入止损价位" = "Stop-loss price";
+"卖出止损价位" = "Stop-loss price";
+"止损金额" = "Stop-loss amount";
+"保证金率" = "Margin ratio ";
+"手" = "lot";
+"手_复数" = "lots";
+"点" = "point";
+"点_复数" = "points";
+"确定" = "Confirm";
+"选择杠杆倍数" = "Choose leverage multiple";
+"请输入委托数量" = "Please enter the order quantity";
+"请输入委托价格" = "Please enter the order price";
+"参数错误，请刷新再试" = "The parameter is wrong, please refresh and try again.";
+"下单成功" = "Successfully ordered";
+
+"委托数量" = "Order quantity";
+"盈亏" = "Profit and loss";
+"保证金" = "Margin";
+"开仓" = "Opening price";
+"开仓价" = "Opening price";
+"委托价格" = "Order price";
+"成交价格" = "Strike price";
+"最新平仓" = "Closing price";
+"平仓价" = "Closing price";
+"止盈价位" = "Stop-profit price";
+"止损价位" = "stop-loss price";
+"止盈点数" = "Stop-profit point";
+"止损点数" = "stop-loss point";
+"止盈比例" = "stop-profit ratio";
+"止损比例" = "stop-loss ratio";
+"手续费" = "Fee";
+"杠杆倍数" = "Leverage multiple";
+"倍" = " times";
+"开仓时间" = "Opening date";
+"委托时间" = "Order date";
+"单号" = "Order number";
+"平仓时间" = "Closing date";
+"终止时间" = "Stop date";
+"止盈修改" = "Modify stop-profit";
+"止损修改" = "Modify stop-loss";
+"止损设置" = "Modify stop-loss";
+"止盈设置" = "Modify stop-profit";
+"市价平仓" = "Close";
+"撤销" = "Close";
+
+"交易历史" = "Trades History";
+"结算历史" = "Settlement history";
+"委托历史" = "Order history";
+"暂无持仓" = "No positions";
+"暂无委托" = "No orders";
+
+"规则说明" = "Rugulation";
+"计算器" = "Calculator";
+"收益" = "Profit";
+"平仓价格" = "Closing pirce";
+"合约类型" = "Object";
+"开仓保证金（USDT）" = "Margin（USDT）";
+"收益（USDT）" = "Profit（USDT)";
+"收益率（%）"= "Rate of profit（%）";
+"杠杆倍数_calcutor" = "Leverage";
+"开仓价格（USDT）" = "Opening price（USDT)";
+"平仓价格（USDT）" = "Closing price（USDT)";
+"开仓数量（手）" = "Quantity（lot）";
+
+"请输入开仓价格" = "Enter opening price";
+"请输入平仓价格"= "Enter closing price";
+"请输入开仓数量"= "Enter quantity";
+"请输入收益率" = "Enter rate of profit";
+"计算" = "Calculator";
+
+"持仓分析" = "Position analysis";
+"各品种持仓占比" = "Percentage of positions";
+"品种" = "Object";
+"交易数量(手)" = "Quantity (lot)";
+"占比" = "Ratio";
+//MARK: - 行情提醒
+"行情提醒" = "Aler";
+"完成" = "Save";
+"价格涨至"="The price rose to";
+"价格低至"="The price fell to";
+"输入价格"="input price";
+"日涨幅(%)"="1D increases over(%)";
+"日跌幅(%)"="1D declines over(%)";
+"输入涨幅" = "increase input ";
+"请输入价格" = "input price,please";
+"上涨提醒价格不得低于当前价" = "The price of the rise reminder can not be less than the current price.";
+"下跌提醒价格不得高于当前价" = "The price of the decline reminder can not be higher than the current price.";
+
+"提醒频率" = "Remind frequency";
+"仅一次" = "Remind only once";
+"每天一次" = "Remind once for one day";
+"* 当行情多次到达提醒价位时，仅在第一次时提醒。" = "* When the price reaches the target price multiple times,remind me only at the first time";
+"* 当行情多次到达提醒价位时，仅在每天第一次到达时提醒。" = "* When the price reaches the target price multiple times,remind me only at the first time for one day";
+//MARK: - Asset
+
+"总权益估值(人民币)" = "Estimated Total Equity（CNY）";
+"浮动盈亏估值(人民币)" = "Estimated total unrealized PNL（CNY）:";
+"占用保证金估值(人民币)" = "Estimated position margin（CNY）:";
+"浮动盈亏" = "Unrealized PNL";
+"实时汇率：" = "Exchange Rates:";
+"汇率：" = "Exchange Rates:";
+"汇率:" = "Exchange Rates:";
+"汇率" = "Exchange Rates";
+
+"总权益" = "Total Equity";
+"资产明细" = "Asset Details";
+
+"币币兑换" = "Exchange";
+"资金记录" = "Asset Record";
+
+"当前最优价格：" = "Current best price: ";
+"最多可换出" = "Maximum ";
+"最多可换为"=  "Maximum ";
+"请选择币种" = "Please select a currency";
+"同币种不可兑换"= "Conversion is not supported between  same cryptocurrency";
+"可兑换金额不足"= "Insufficient convertible  amount";
+"确认将%@%@兑换为%@" = "Confirm to convert %@%@ to %@";
+"最小提现金额不能小于" = "The minimum withdraw amount cannot be less than ";
+"最大提现金额不能大于" = "The maximum withdraw amount cannot exceed ";
+"不能超过单次最大兑换金额"= "The  maximum exchanged amount cannot be exceed ";
+"不能小于单次最小兑换金额"= "The minimum exchanged amount cannot be less than ";
+"全部兑换" = "Exchange all";
+"提交订单_兑换" = "Exchange";
+"提交订单" = "Submit order";
+
+"入金" = "Deposit";
+"出金" = "Withdraw";
+"OTC买币" = "OTC\ndeposit";
+"链上转入" = "On-Blockchain\ndeposit";
+"OTC提现" = "OTC\nwithdraw";
+"链上转出" = "On-Blockchain\nwithdraw";
+"可卖金额" = "Saleable Amount";
+"卖出手续费" = "Selling Fee";
+"详细信息" = "Details";
+"确认中" = "Confirming";
+"交易中" = "Trading";
+"处理中" = "Processing";
+"成功" = "Success";
+"失败" = "Failure";
+"状态" = "Status";
+"币种" = "Cryptocurrency type";
+"币种_edit" = "Currency";
+"标签" = "Label";
+"输入标签，不超过10个字符" = "Enter the label content,at most 10 characters";
+"编辑出金地址" = "Edit Address";
+"添加地址"= "Add Address";
+"出金地址管理" = "Address Management";
+"%@出金地址管理" = "%@ Address Management";
+"%@地址" = "Address of %@";
+"删除" = "Delete";
+"您确定删除该出金地址吗？" = "Delete this withdraw address?";
+"点击以下地址，查看链上信息" = "Click on the address to view details";
+"地 址：" = "Address：";
+"复制地址" = "Copy address";
+"请刷新重试" = "Please refresh and try again";
+
+"确定取消订单" = "Do you want to cancel this order?";
+"%d分%d秒" = "%d min %d sec";
+"倒计时"= "Countdown";
+"CNY支付金额" = "Payment amount";
+"CNY到账金额" = "Collection amount";
+"收款方式：" = "Payment method：";
+"收款账号：" = "Collection account：";
+"收款人：" = "Payee：";
+"附言：" = "Postscript：";
+"取消订单" = "Cancel order";
+"确认已付款"= "Confirm paid";
+"已确认付款，等待卖家确认" = "waiting for seller confirmation";
+"购买数量"= " purchase quantity";
+"卖出数量" = " sell quantity";
+
+"重要提示" = "Important reminder";
+"链上充值记录" = "On-Blockchain deposit record";
+"查看更多记录" = "More Record";
+"您的个人多重签名%@入金地址" = "Your multi signature %@ deposit address";
+"您的个人多重签名入金地址" = "Your multi signature deposit address";
+"最大买入金额不能大于" = "The maximum deposit amount cannot exceed ";
+"最小买入金额不能小于" = "The minimum deposit amount cannot be less than ";
+"汇率有误，请刷新重试" = "The exchange rate is wrong, please refresh and try again";
+"交易中OTC订单" = "OTC order in trades";
+"请输入买入数量" = "Please enter the quantity";
+"输入买入数量，最少" = "At least ";
+"最优价实时变动，订单成交后的价格可能与当前页面显示价格存在少量差异，价格以成交订单页面为准" = "The best price changes in real time and may be slightly different from the current page, so it is subject to the order page";
+"倒计时：%ld分%ld秒" = "Countdown: %ld min %ld sec";
+"马上实名认证" = "Go to verify";
+"实名认证:" = "ID verification";
+"全部出金" = "Withdraw all";
+"提币地址" = "Withdraw address";
+"提币数量" = "Withdraw quantity";
+"请输入提币地址" = "Enter the withdraw address";
+"输入提币数量，最少" = "At least ";
+"输入地址或点击右方图标扫码"= "Enter the address or click icon to scan";
+"提现提交成功"= "Submit Completed";
+"可提金额" = "Saleable amount";
+"总余额" = "Total Balance";
+
+"筛选" = "Selected";
+"币种：" = "Currency:";
+"状态：" = "Status:";
+"开仓时间：" = "Opening\ndate:";
+"订单时间：" = "Order\ndate:";
+"自定义：" = "Customize:";
+"兑出币种：" = "Exchange:";
+"换为币种：" = "To:";
+"重置" = "Reset";
+"当天" = "Today";
+"7天" = "7 days";
+"30天" = "30 days";
+"开始日期不能大于结束日期" = "The start date can not exceed the end date";
+
+"交易分析" = "Transaction analysis";
+"合约："="Currency";
+"日期："="Data";
+"交易合约" = "Transaction Contract";
+"交易时间" = "Transaction date";
+"总盈亏 (USDT)" = "Total profit and loss (USDT)";
+"已平仓盈亏 (USDT)" = "Closed profit and loss (USDT)";
+"浮动盈亏 (USDT)" = "Unrealized profit and loss (USDT)";
+"总数(手)" = "Total (lot)";
+"盈利平仓(手)" = "Closed with profit (lot)";
+"亏损平仓(手)" = "Closed with loss (lot)";
+"开仓(手)" = "Open(lot)";
+"撤单(手)" = "Cancel(lot)";
+
+"保存" = "Save";
+"添加出金地址" = "Add address";
+
+//MARK: - Mine
+"欢迎来到Bitmixs" = "Digital currency contract trading platform";
+"请登录/注册" = "Log in/Sign up";
+"账户中心" = "Account Center";
+
+"修改密码" = "Change\nPassword";
+"未认证" = "Not verified";
+"未绑定" = "Unbound";
+"是否解绑银行卡" = "Unbind the bank card?";
+"账号信息" = "Account information";
+"手机号"= "Phone number";
+"实名认证" = "ID verification";
+"马上认证" = "Verify";
+"收付款银行卡信息" = "Bank card information";
+"尾号" = "Tail number";
+"马上绑定" = "Bind";
+"解除绑定" = "Untied";
+"银行" = "Bank";
+"到账银行卡:" = "Bank Card:";
+
+"真实姓名" = "Name";
+"请输入真实姓名" = "Please enter your name";
+"身份证号" = "ID number";
+"请输入身份证号" = "Please enter your ID number";
+"为了您的资金安全，需验证您的身份才可进行其他操作；认证信息一经验证将不可修改，请务必如实填写。" = "For the safety of your funds,you need to verify your identity before other operations.The authentication information cannot be modified after verification.Please fill it out truthfully.";
+
+"绑定银行卡" = "Bind bank card";
+"银行卡"= "Bank card number";
+"请输入银行卡号" = "Please enter the bank card number";
+"请输入银行名称" = "Please enter the bank name";
+"银行名称" = "Bank name";
+"如工商银行、招商银行" = "For example, China Merchants Bank";
+"提交" = "Confirm";
+"绑定银行卡后，卖币提现的资金将转账至您所绑定的银行卡，如需更换银行卡，请先将银行卡解绑。银行卡开户人必须与您实名认证信息一致。" = "The funds will be transferred to the bank card after you bind the bank card. If you want to change the bank card, please unbind it..Moreover,The bank card account holder must be consistent with the person whose real name is authenticated.";
+
+"重新认证" = "Recertification";
+"认证失败"= "Authentication failed";
+"确认_id" = "Confirm";
+"认证成功" = "Authentication completed";
+"重新加载" = "Reload";
+"抱歉～加载失败，请您重新加载" = "Sorry~ the load failed, please reload";
+
+"资金明细" = "Asset Details";
+"全部" = "All";
+"充值" = "Deposit";
+"提现" = "Withdraw";
+"开仓" = "Open";
+"结算" = "Settle";
+"委托" = "Order";
+"撤单" = "Cancel";
+
+"帮助中心" = "Help Center";
+"新手引导" = "Newbie guid";
+"交易相关" = "About trades";
+"常见问题" = "Common problem";
+
+"设置" = "Settings";
+"退出登录" = "Sign out";
+"语言" = "Language";
+"红涨绿跌" = "Red up and Green down";
+"绿涨红跌" = "Green up and Red down";
+"涨跌颜色" = "Color";
+"关于" = "About Bitmixs";
+"检测更新" = "Check for updates";
+"点击更新" = "Up to date version";
+"已是最新版本" = "Already the latest version";
+"注册协议" = "registration agreement";
+"风险揭示" = "Risk disclosure";
+"《%@注册协议》" = "%@ registration agreement";
+"《风险揭示》" = "Risk disclosure";
+
+"投诉建议" = "Suggestions";
+"投诉邮箱" = "Email";
+"投诉电话" = "Phone";
+
+"消息提醒" = "Message Alert";
+"系统通知" = "System notification";
+"行情提醒" = "Market reminder";
+"交易提醒" = "Trade reminder";
+
+"安全中心" = "Security Center";
+"已开启" = "Enabled";
+"未开启" = "Disabled";
+"谷歌二次验证" = "Google 2FA authentication";
+"关闭谷歌二次验证" = "Enable Google 2FA authentication";
+"确认_close" = "Confirm";
+"开启谷歌二次验证" = "Enable Google 2FA authentication";
+"安装验证器" = "Installation";
+"绑定验证器" = "Binding";
+"输入验证码" = "Input";
+"密钥：" = "Secret Key：";
+"请输入谷歌验证码" = "Please enter Google verification code";
+ 
+"下载并安装谷歌验证器\n" = "Download and install\n";
+ 
+"立即下载" = "Download";
+"使用谷歌验证器APP扫描该二维码或输入密钥" = "Use Google Authenticator APP to scan this QR code,or enter Secret Key";
+"保存图片到手机" = "Save the image";
+ 
+"复制" = "Copy";
+"下一步" = "Next";
+"开启" = "Confirm";
+ 
+"请将16位密钥记录在纸上，并保存在安全的地方。如遇手机丢失， 你可以通过该密钥恢复你的谷歌验证" = "Please write down the 16-digit Secret Key and keep it safe. You can retrieve Google Authenticator with the Secret Key if you lost your phone.";
+"请输入谷歌验证器中的6位验证码进行验证" = "Please enter the 6-digit verification code generated by Google Authenticator to verify";
+ 
+"保存图片成功" = "Save the picture successfully";
+"保存图片失败" = "Failed to save image";
+"复制成功" = "Successful copy";
+"温馨提示" = "Tips";
+"请您设置允许该应用访问您的相册" = "Please set the app to allow access to your album";
+"去设置" = "Go";
+"暂无交易订单" = "No order in trading";
+
+//MARK: - Login
+
+"手机号输入错误" = "Phone number input error";
+"密码格式错误" = "The password format is wrong";
+"密码输入不一致" = "Inconsistent password input";
+"验证码错误" = "SMS verification code input error";
+"邀请码不能为空" = "Invitation code cannot be empty";
+"重置成功" = "Reset successfully";
+"找回登录密码" = "Retrieve Password";
+"请输入手机号" = "Please enter your phone number";
+"登录密码" = "Password";
+"6~32位数字、字母或符号的组合" = "6-32 digits and letters";
+"再次输入" = "Re-enter";
+"请输入密码" = "Please enter password";
+"请确认密码" = "Confirm new password";
+"请输入短信验证码" = "Please enter SMS verification code";
+"请输入邀请码，必填" = "Please enter the invitation code, required";
+"发送验证码" = "Send";
+"验证码发送成功" = "The verification code sent successfully.";
+"登录成功" = "Successed";
+"注册成功" = "Successed";
+"已有账号" = "Log in";
+"注册新帐号" = "Sign Up";
+"注册" = "Sign Up";
+"注册_register" = "Sign Up";
+"登录" = "Log in";
+"登录_login" = "Log in";
+"密码" = "Password";
+"短信验证码" = "SMS verification code";
+"邀请码" = "Invitation code";
+
+"忘记密码" = "Forgot Password";
+
+//MARK: - Alert
+
+"向%@发送验证码" = " A verification code has been sent to %@";
+"安全验证" = "Security verification";
+"发现新版本" = "Discover new version";
+"请输入账户密码" = "Please enter your account password";
+"请输入验证码" = "Please enter SMS verification code";
+"验证码格式错误" = "The verification code is incorrect.";
+"密码错误" = "Password error";
+"重新输入" = "Reenter";
+"确认" = "Confirm";
+"确认_yes" = "Yes";
+"取消_no" = "No";
+"知道了" = "OK";
+"立即入金" = "Deposit";
+"取消" = "Cancel";
+
+"余额不足" = "Insufficient saleable amount";
+"可用余额不足，请入金后下单" = "Insufficient funds available";
+"您还未进行身份认证，请先进行身份认证" = "Please complete real-name authenticate first";
+"您还未进行绑定银行卡，请先绑定银行卡" = "Please bind the bank card first";
+"完成_done"="Done";
+//MARK: - Others
+
+"客服" = "Customer service";
+"呼叫" = "Call";
+
+"下拉可以刷新" = "Pull down to refresh";
+"松开后刷新" = "Release to refresh";
+"正在加载..." = "Loading...";
+"上拉加载更多" = "Tap or pull up to load more";
+"我是有底线的" = "No more data";
+
+"操作成功" = "Success";
+"秒" = "s";
+
+"暂无数据" = "No Data";
+"网络异常" = "Network error";
+"网络异常,请检查您的网络设置" = "Network exception, please check your network settings";
+
+
+
+
