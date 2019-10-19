@@ -7,6 +7,7 @@
 //
 
 #import "NSString+NSafe.h"
+#import "Util.h"
 
 @implementation NSString (NSafe)
 

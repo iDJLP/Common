@@ -7,6 +7,8 @@
 //
 
 #import "NSSet+NSafe.h"
+#import "NSafe.h"
+#import "Util.h"
 
 @implementation NSSet(NSafe)
 

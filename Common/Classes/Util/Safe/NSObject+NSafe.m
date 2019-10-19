@@ -7,6 +7,8 @@
 //
 
 #import "NSObject+NSafe.h"
+#import "Util.h"
+#import <objc/runtime.h>
 
 @interface _UnregSelObjectProxy : NSObject
 

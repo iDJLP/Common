@@ -7,7 +7,7 @@
 //
 
 #import "FOWebService.h"
-
+#import "Util.h"
 
 //#import "AFNetworking.h"
 
@@ -165,15 +165,15 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
     }
     _status = [reachability currentReachabilityStatus];
     if(_status==NotReachable){
-        BLYLogInfo(@"网络断开!");
+        NSLog(@"网络断开!");
         return;
     }
     if(_status==ReachableViaWiFi){
-        BLYLogInfo(@"已联网WIFI");
+        NSLog(@"已联网WIFI");
         return;
     }
     if(_status==ReachableViaWWAN){
-        BLYLogInfo(@"已联网4G");
+        NSLog(@"已联网4G");
     }
 }
 // GET请求 https/gzip 返回数据
@@ -216,7 +216,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
               dispatch_queue_t currentQueue=dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
               dispatch_async(currentQueue, ^{
                   if(error!=nil){
-                      BLYLogWarn(@"网络错误:%@",error);
+                      NSLog(@"网络错误:%@",error);
                       if(failure!=nil){
                           dispatch_async(dispatch_get_main_queue(),^{
                               failure(error);
@@ -279,7 +279,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
               dispatch_queue_t currentQueue=dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
               dispatch_async(currentQueue, ^{
                   if(error!=nil){
-                      BLYLogWarn(@"[%@]网络错误:%@",path,error);
+                      NSLog(@"[%@]网络错误:%@",path,error);
                       if(failure!=nil){
                           dispatch_async(dispatch_get_main_queue(),^{
                               failure(error);
@@ -313,7 +313,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
                           }
                       }
                   }else{
-                      BLYLogWarn(@"返回数据为空:%@",path);
+                      NSLog(@"返回数据为空:%@",path);
                   }
                   [weakSelf removeTask:path];
               });
@@ -364,7 +364,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
               dispatch_async(currentQueue, ^{
                   if(error!=nil){
                       NSLog(@"[%@]网络错误:%@",path,error);
-                      BLYLogWarn(@"[%@]网络错误:%@",path,error);
+                      NSLog(@"[%@]网络错误:%@",path,error);
                       if(failure!=nil){
                           dispatch_async(dispatch_get_main_queue(),^{
                               failure(error);
@@ -390,7 +390,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
                           }
                       }
                   }else{
-                      BLYLogWarn(@"返回数据为空:%@",path);
+                      NSLog(@"返回数据为空:%@",path);
                   }
                   [weakSelf removeTask:path];
               });
@@ -441,7 +441,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
               dispatch_queue_t currentQueue=dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
               dispatch_async(currentQueue, ^{
                   if(error!=nil){
-                      BLYLogWarn(@"[%@]网络错误:%@",path,error);
+                      NSLog(@"[%@]网络错误:%@",path,error);
                       if(failure!=nil){
                           dispatch_async(dispatch_get_main_queue(),^{
                               failure(error);
@@ -514,7 +514,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
               dispatch_queue_t currentQueue=dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
               dispatch_async(currentQueue, ^{
                   if(error!=nil){
-                      BLYLogWarn(@"网络错误:[%@]:%@",path,error);
+                      NSLog(@"网络错误:[%@]:%@",path,error);
                       if(failure!=nil){
                           dispatch_async(dispatch_get_main_queue(),^{
                               failure(error);
@@ -601,7 +601,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
               dispatch_queue_t currentQueue=dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
               dispatch_async(currentQueue, ^{
                   if(error!=nil){
-                      BLYLogWarn(@"网络错误:[%@]:%@",path,error);
+                      NSLog(@"网络错误:[%@]:%@",path,error);
                       if(failure!=nil){
                           dispatch_async(dispatch_get_main_queue(),^{
                               failure(error);
@@ -651,7 +651,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
         return;
     }
     [target cancel];
-    BLYLogInfo(@"取消网络请求任务:%@",[target description]);
+    NSLog(@"取消网络请求任务:%@",[target description]);
     GCD_LOCK();
     NSArray *keys = [_tasks allKeys];
     __weak typeof(self) weakSelf=self;
@@ -678,7 +678,7 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
     }else{
         NSString *json=[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         if([json hasPrefix:@"<!DOCTYPE"]){
-            BLYLogWarn(@"[%@]解析Json错误,返回的是HTML:%@",path,json);
+            NSLog(@"[%@]解析Json错误,返回的是HTML:%@",path,json);
             NSLog(@"[%@]解析Json错误,返回的是HTML:%@",path,json);
             return nil;
         }
@@ -690,18 +690,18 @@ NSString *const NetWorkStatusChanged = @"NetWorkStatusChanged";
         error=nil;
         obj=[NSJSONSerialization JSONObjectWithData:jsonData options:NSJSONReadingMutableContainers error:&error];
         if(error==nil){
-            BLYLogWarn(@"[path]移除非法字符解析成功:%@",path,error);
+            NSLog(@"[path]移除非法字符解析成功:%@",path,error);
             return obj;
         }
         NSLog(@"[%@]解析Json错误",path);
-        BLYLogWarn(@"[%@]解析Json错误",path);
+        NSLog(@"[%@]解析Json错误",path);
         return error;
     }
 }
 // 取消所有的网络请求
 - (void) cancelAll
 {
-    BLYLogInfo(@"取消所有网络请求");
+    NSLog(@"取消所有网络请求");
     GCD_LOCK();
     NSArray *keys = [_tasks allKeys];
     __weak typeof(self) weakSelf=self;

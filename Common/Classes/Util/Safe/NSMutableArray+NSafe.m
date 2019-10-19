@@ -7,6 +7,7 @@
 //
 
 #import "NSMutableArray+NSafe.h"
+#import "NSafe.h"
 
 @implementation NSMutableArray(NSafe)
 

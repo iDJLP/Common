@@ -14,59 +14,6 @@
     @import UIKit;
     @import Foundation;
 
-//三方库
-#import "YYKit.h"
-#import "Masonry.h"
-#import <Bugly/Bugly.h>
-#import "UIImageView+WebCache.h"
-#import "UIButton+WebCache.h"
-#import "MJRefresh.h"
-
-#if defined(DEBUG)
-#import "MLeaksFinder.h"
-#endif
-//工具类
-#import "UtilHeader.h"
-#import "FTConfig.h"
-#import "DCAlert.h"
-
-//宏定义
-#import "Macros.h"
-
-//safe类
-#import "NSMutableArray+NSafe.h"
-#import "NSArray+NSafe.h"
-#import "NSDictionary+NSafe.h"
-#import "NSString+NSafe.h"
-#import "NSObject+NSafe.h"
-#import "NSSet+NSafe.h"
-#import "NSafe.h"
-
-//基类
-#import "MainTabBarVC.h"
-#import "BaseNC.h"
-#import "NBaseVC.h"
-
-#import "CFDHqDefine.h"
-#import "DCService.h"
-#import "CFDJumpUtil.h"
-#import "UserModel.h"
-#import "CFDApp.h"
-#import "CFDLocalizedManager.h"
-
-// 通知定义
-// 登录成功
-static NSString *const LoginSuccessNoti = @"LoginSuccessNoti";
-// 取消登录
-static NSString *const CancelLoginNoti = @"CancelLoginNoti";
-// 主题模式切换
-static NSString *const ThemeDidChangedNotification = @"ThemeDidChangedNotification";
-static NSString *const LanguageDidChangedNotification = @"LanguageDidChangedNotification";
-// 登出成功
-static NSString *const LogoutSuccessNoti = @"LogoutSuccessNoti";
-
-
-#define OtherTagKeyboard 1801
 
 
 #endif
