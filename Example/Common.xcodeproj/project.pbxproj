@@ -44,6 +44,7 @@
 		28DB8287235735F800796E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DB8282235735F800796E3A /* InfoPlist.strings */; };
 		28DB828D2357360700796E3A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DB82892357360700796E3A /* Localizable.strings */; };
 		28DB828E2357360700796E3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28DB828B2357360700796E3A /* InfoPlist.strings */; };
+		4712177E1B79E52436519E9F /* Pods_Common_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AF745C73D6637D3B53DCC9 /* Pods_Common_Example.framework */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -135,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4712177E1B79E52436519E9F /* Pods_Common_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
